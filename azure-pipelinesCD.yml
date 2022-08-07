@@ -1,0 +1,9 @@
+trigger: none 
+
+jobs:
+- deployment: 'DEV'
+  displayName: 'Deploy the Web Application'
+  environment: DEV
+   name: Dev
+   resourceType: VirtualMachine
+
